@@ -1,0 +1,152 @@
+*, * ::before, *::after { 
+    box-sizing: inherit;
+}
+
+html { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body { 
+    background-image: url(assets/bg.jpg);
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: purple;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header { width: auto;
+height: auto;}
+
+ul li {list-style: none;}
+
+li a {text-decoration: none;}
+
+p { padding: 0;
+    margin: 0;
+    }
+
+.topmenubar {display: flex none;}
+
+.subscribebar {display: flex none};
+
+.subscribebar ul {display: flex none;}
+
+ul .subscribe {display: flex;}
+
+#subscribe button p {font-size: 15px;
+    margin: 0;}
+
+#subscribe button {background: red;
+    height: 25px; display: flex none;
+    border: 0;
+    background: none;  
+    }
+
+.squares {font-size: 45px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 0px;
+    margin-bottom: 0px;}
+    
+    #FB, #RSS, #YT, #T {box-shadow:1px 2.5px  #919191;
+    padding: 0; margin: 1.5px}
+    
+    #VD { padding: 0;
+    margin: 1.5px;
+    background-color: none;}
+    
+    #FB {color: #465993;
+    background-color: #7481af;
+    border-radius: 15px;
+    border-radius: top 20px;
+    }
+    
+    #RSS {color: #c49045;
+    background-color: #d1af74;
+    border-radius: 15px;
+    border-radius: top 20px;
+    }
+    
+    #YT {
+    color: #a63f33;
+    background-color: #bb6b64;
+    border-radius: 15px;
+    border-radius: top 20px;}
+    
+    #T {
+    color: #6f8dc2;
+    background-color: #93a8d0;
+    border-radius: 15px;
+    border-radius: top 20px;
+}
+
+
+.navigationbar nav {display: flex none;  
+    
+}
+
+.navbar { color: white; 
+    text-align: center; 
+    font-style: bold; 
+    width: auto;
+    display: flex;
+    justify-content: center;
+}
+    
+.navbar li {width: 180px;
+    height: 30px;
+    background-color: #a73534;
+    margin: 5px;
+    box-shadow: 1px 2.5px #919191; 
+    padding-top: 5px ;
+}
+/* proper way to correct this with padding*/
+
+/* How to format dot? 
+#subscribe p::after { content: "\00B7"; 
+}
+*/
+
+/* -------------Main Content----------------*/
+
+
+.section1 { width: 800px;
+    border: 8px solid #fefefe;  
+    display: flex;
+    position: absolute;
+}
+
+#topimage img {
+    background-image: url("/assets/top-image.png");
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    z-index: 1;
+} 
+
+figure {margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#logo img {position: relative;
+size: 25%;
+bottom: 100px;
+left: 50px;
+z-index: 3;}
+
+#grid img {
+    width: 100%;
+    height: 10%;
+    z-index: 2;
+}
+
+
+
+
+    
